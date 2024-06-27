@@ -1,0 +1,49 @@
+.password-checker {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.input {
+  width: 300px;
+
+  box-sizing: border-box;
+
+  border: solid 2px orchid;
+  border-radius: 20px;
+
+  padding: 10px 20px;
+}
+
+.input:hover,
+.input:focus {
+  border-color: blueviolet;
+}
+
+.indicator {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.strength-section {
+  width: 90px;
+  height: 16px;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
